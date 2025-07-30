@@ -10,6 +10,7 @@ package homeworks.java.cosmo.string;
 public class ExB {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
-
+        StringBuffer inputbfr = new StringBuffer(input);
+        System.out.println(inputbfr.reverse());
     }
 }
